@@ -1,0 +1,33 @@
+{
+    "homeCamera": {
+       "north": 55.75,  // Closer to the south
+       "east": 37.56,   // Closer to the west
+       "south": 55.74,  // Closer to the north
+       "west": 37.55    // Closer to the east
+   },
+     "catalog": [
+        {
+            "name": "gltf example local",
+            "type": "gltf",
+            "url": "test/3d_buildings/01.glb",
+            "content": "sample skyscraper",
+            "show": true,
+            "origin": {
+              "longitude": 37.55,
+              "latitude": 55.75,
+              "height": 140
+            },
+            "editing": {
+              "isEditable": true,
+              "isTransformable": true
+            },
+            "heightReference": "CLAMP_TO_TERRAIN",
+            "id": "glb_01"
+          }
+     ],
+     "workbench": ["glb_01"], "viewerMode": "3d"
+}
+   
+   
+   
+  
