@@ -1,0 +1,32 @@
+{
+  "asset": {
+    "generator": "i3dm.export 2.10.0.0",
+    "version": "1.1"
+  },
+  "geometricError": 1000.0,
+  "root": {
+    "geometricError": 1000.0,
+    "refine": "ADD",
+    "boundingVolume": {
+      "region": [
+        0.4046728312460176,
+        0.743291703882712,
+        0.40952196019364084,
+        0.7465901566364396,
+        513.0,
+        957.8800000000047
+      ]
+    },
+    "content": {
+      "uri": "content/{level}_{x}_{y}.glb"
+    },
+    "implicitTiling": {
+      "availableLevels": 7,
+      "subdivisionScheme": "QUADTREE",
+      "subtreeLevels": 4,
+      "subtrees": {
+        "uri": "subtrees/{level}_{x}_{y}.subtree"
+      }
+    }
+  }
+}
